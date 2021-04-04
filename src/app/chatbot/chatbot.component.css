@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+    div.chat-header {
+        color: white;
+        background-color: #665C99;
+        height: 8%;
+        font-family: 'Teko', sans-serif;
+    }
+
+    div.chat-box {
+        margin-top: 40px;
+        width: 500px;
+        height: 700px;
+        border: solid 1px white;
+    }
+
+    div.chat-history-log {
+        padding-top: 10px;
+        height: 90%;
+        background-color: white;
+        overflow-y: scroll;
+        /*background-image: url(https://preview.redd.it/qwd83nc4xxf41.jpg?width=640&crop=smart&auto=webp&s=e82767fdf47158e80604f407ce4938e44afc6c25);*/
+    }
+
+    form.send-message-box {
+        height: 10%;
+        display: flex;
+        background-color: #665C99;
+    }
+
+    input.input-text {
+        width: 90%;
+        height: 50px;
+        padding: 0;
+        margin: 5px 0px 5px 5px;
+        border-radius: 10px 0px 0px 10px;
+        border: solid 1px white;
+    }
+
+    div.chat-left-message {
+        background-color: #8F7EE6;
+        max-width: 30%;
+        max-width: 70%;
+        min-height: 50px;
+        margin: 10px;
+        padding: 5px;
+        border-radius: 10px
+    }
+
+    div.chat-right-message {
+        display: flex;
+        align-items: right;
+        justify-content: left;
+        background-color: #993D6E;
+        max-width: 30%;
+        max-width: 70%;
+        min-height: 50px;
+        margin: 10px;
+        margin-right: 0;
+        padding: 5px;
+        margin-left: 25%;
+        border-radius: 10px
+    }
+
+    button.send-button {
+        margin: 5px 5px 5px 0px;
+        width: 10%;
+        border: 1px solid white;
+        background-color: #993D6E;
+        height: 52px;
+        border-radius: 0px 10px 10px 0px;
+    }
