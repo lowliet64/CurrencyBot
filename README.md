@@ -1,27 +1,36 @@
-# BotCurrency
+CurrencyBot
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.5.
+Chatbot para com angular 9
 
-## Development server
+IMPORTANTE!!!
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+* Esta aplicacao utiliza o projeto [CurrencyBotApi](https://github.com/lowliet64/CurrencyBotApi) em conjunto.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Pré-Requisitos📃
+   * node 14.16.0
+## Instalação💻
+   
+   * Primeiramente baixe o arquivo ou clone com o comando git clone
+   
+~~~
+ git clone https://github.com/lowliet64/CurrencyBot.git
+~~~
 
-## Build
+  * Em seguida entre no diretório da aplicação
+  
+  ~~~
+    cd CurrencyBot
+  ~~~
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+   * Dentro da pasta instale as dependencias executando :
+   
+  ~~~
+    npm install 
+  ~~~~
+  * Por último inicie o serviço com o comando :
+  ~~~
+   ng serve --open
+  ~~~
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+O Serviço estará disponivel em http://127.0.0.1:4200
