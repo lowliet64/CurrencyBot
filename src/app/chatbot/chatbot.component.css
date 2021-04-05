@@ -73,3 +73,13 @@
         height: 52px;
         border-radius: 0px 10px 10px 0px;
     }
+
+    .chat-person-detail{
+        margin-bottom: 15px;
+    }
+    .chat-person-detail>img{
+        height: 1.6vw;
+    }
+    .chat-person-detail>span{
+     font-size: 1.3em;
+    }
